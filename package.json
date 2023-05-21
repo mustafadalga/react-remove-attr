@@ -1,0 +1,63 @@
+{
+  "name": "react-remove-attr",
+  "description": "A Vite plugin designed specifically for React.js projects that allows the removal of specified attributes in production builds. Useful for excluding attributes like 'data-testid' used in testing. Options include specific file extensions, attributes, ignored folders, and files.",
+  "private": false,
+  "version": "0.0.1",
+  "type": "module",
+  "types": "./dist/remove-attributes.d.ts",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/remove-attributes.umd.cjs",
+  "module": "./dist/remove-attributes.js",
+  "exports": {
+    ".": {
+      "import": "./dist/remove-attributes.js",
+      "require": "./dist/remove-attributes.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && tsc --declaration --emitDeclarationOnly",
+    "build-only": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@babel/generator": "^7.21.5",
+    "@babel/parser": "^7.21.8",
+    "@babel/traverse": "^7.21.5",
+    "@babel/types": "^7.21.5",
+    "@types/babel__generator": "^7.6.4",
+    "@types/babel__traverse": "^7.18.5",
+    "@types/node": "^20.2.1",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2"
+  },
+  "keywords": [
+    "vite",
+    "vite-plugin",
+    "react",
+    "jsx",
+    "tsx",
+    "removal",
+    "reactjs",
+    "attr",
+    "attributes",
+    "attribute",
+    "remove-attr",
+    "remove-attribute",
+    "remove-attributes",
+    "html",
+    "build-tool",
+    "javascript",
+    "typescript",
+    "optimization",
+    "web-development"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mustafadalga/react-remove-attr"
+  },
+  "author": "Mustafa Dalga",
+  "license": "GPL-3.0"
+}
