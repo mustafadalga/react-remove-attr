@@ -10,7 +10,7 @@ efficiency. It's a must-have tool for any developer seeking to streamline their 
 
 <p align="center">
 
-[![version](https://img.shields.io/npm/v/remove-attr.svg)](https://www.npmjs.com/package/react-remove-attr)
+[![version](https://img.shields.io/npm/v/react-remove-attr.svg)](https://www.npmjs.com/package/react-remove-attr)
 [![vite version](https://img.shields.io/badge/vite-4.3.2-brightgreen.svg)](https://www.npmjs.com/package/vite)
 
 </p>
